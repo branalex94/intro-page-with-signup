@@ -1,0 +1,119 @@
+:root {
+  /* COLORS */
+  /* Primary */
+
+  --Red: hsl(0, 100%, 74%);
+  --Green: hsl(154, 59%, 51%);
+
+  /* Accent */
+
+  --Blue: hsl(248, 32%, 49%);
+
+  /* Neutral */
+
+  --Dark-Blue: hsl(249, 10%, 26%);
+  --Grayish-Blue: hsl(246, 25%, 77%);
+
+  /* FONTS */
+  --font-family: "Poppins", sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--font-family);
+}
+
+body {
+  min-height: 100vh;
+  background-image: url(../images/bg-intro-mobile.png);
+  background-color: var(--Red);
+}
+
+.main__wrapper {
+  padding: 5rem 1.9rem;
+}
+
+.main__title,
+.main__text,
+.main__trial-test {
+  color: #fff;
+  text-align: center;
+}
+
+.main__title {
+  margin-bottom: 1rem;
+  font-size: 1.7rem;
+}
+
+.main__text {
+  margin-bottom: 2.5rem;
+}
+
+.main__text,
+.main__trial-test {
+  font-size: 0.9rem;
+}
+
+.main__trial-test {
+  background-color: var(--Blue);
+  padding: 1rem 4rem;
+  border-radius: 0.5rem;
+  box-shadow: 0px 8px 0px 0px #0003;
+  margin-bottom: 1rem;
+  line-height: 1.7;
+}
+
+.main__form {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0px 8px 0px 0px #0003;
+}
+
+.form__input {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border: 1px solid #cccc;
+  border-radius: 0.5rem;
+}
+
+.form__input::placeholder {
+  font-weight: 800;
+}
+
+.form__btn {
+  padding: 0.8rem;
+  background-color: var(--Green);
+  text-transform: uppercase;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  box-shadow: 0px 3px 0px 0px #ccca;
+  letter-spacing: 0.1rem;
+  margin-bottom: 1rem;
+}
+
+.form__disclaimer {
+  font-size: 0.7rem;
+  color: #bbb;
+  padding: 0 1.5rem;
+  text-align: center;
+}
+
+.span__terms {
+  color: var(--Red);
+  font-weight: 800;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
