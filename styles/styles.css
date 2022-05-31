@@ -96,6 +96,12 @@ body {
   box-shadow: 0px 3px 0px 0px #ccca;
   letter-spacing: 0.1rem;
   margin-bottom: 1rem;
+  cursor: pointer;
+  transition: opacity 0.5s ease;
+}
+
+.form__btn:hover {
+  opacity: 0.7;
 }
 
 .form__disclaimer {
@@ -116,4 +122,37 @@ body {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 1024px) {
+  .main__wrapper {
+    display: flex;
+    padding: 5rem 10rem;
+  }
+
+  .main__left-side--desktop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 2.5rem;
+    flex: 4;
+  }
+
+  .main__right-side--desktop {
+    flex: 4;
+  }
+
+  .main__title,
+  .main__text {
+    text-align: left;
+  }
+
+  .main__title {
+    font-size: 3rem;
+  }
+
+  .main__text {
+    font-size: 1rem;
+  }
 }
