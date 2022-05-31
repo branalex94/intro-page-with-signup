@@ -84,6 +84,8 @@ body {
   border: 1px solid #cccc;
   border-radius: 0.5rem;
   transition: border 0.5s ease;
+  color: var(--Red);
+  font-weight: 800;
   width: 100%;
 }
 
@@ -149,7 +151,7 @@ body {
   position: absolute;
   background: url(../images/icon-error.svg);
   background-repeat: no-repeat;
-  height: 50%;
+  height: 60%;
   width: 1.5rem;
   right: 10%;
   top: 0;
