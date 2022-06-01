@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://github.com/branalex94/intro-page-with-signup
-- Live Site URL: https://your-live-site-url.com
+- Live Site URL: https://branalex94.github.io/intro-page-with-signup
 
 ## My process
 
